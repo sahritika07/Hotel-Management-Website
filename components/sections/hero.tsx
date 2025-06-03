@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import { Button } from "../ui/button"
+
 
 export default function Hero() {
   return (
@@ -21,13 +23,15 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-white text-center lg:text-left ml-4 lg:ml-8"
         >
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-tight">
-            Book Your
-            <br />
-            <span className="text-white">Comfort Room</span>
-            <br />
-            Today!
-          </h1>
+          <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold mb-6 leading-tight font-serif">
+  More Than a Stay 
+  <br />
+  <span className="text-white">  It’s a Destination !</span>
+  <br />
+
+
+</h1>
+  {/* <Button className="bg-yellow-500 text-black hover:bg-yellow-600 text-sm px-4 py-2">Book Now</Button> */}
         </motion.div>
 
         {/* Right Side - Circular Content */}
