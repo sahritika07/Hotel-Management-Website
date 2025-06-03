@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center">
-                <span className="text-black font-bold text-xl">G</span>
+                <span className="text-black font-bold text-xl">ES</span>
               </div>
               <div>
                 <div className="font-bold text-xl">ELITE STAY</div>
