@@ -16,9 +16,9 @@ const playfairDisplay = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Royal Hotel - Luxury and Comfort Redefined",
+  title: "Elite Hotel - Luxury and Comfort Redefined",
   description:
-    "Experience unparalleled luxury at Royal Hotel. Premium accommodations, world-class amenities, and exceptional service.",
+    "Experience unparalleled luxury at Elite Stay Hotel. Premium accommodations, world-class amenities, and exceptional service.",
     generator: 'v0.dev'
 }
 

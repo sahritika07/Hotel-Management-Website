@@ -23,10 +23,10 @@ export default function SignUpPage() {
         <div className="text-center mb-8">
           <Link href="/" className="flex items-center justify-center space-x-2 mb-4">
             <Crown className="h-8 w-8 text-amber-500" />
-            <span className="text-2xl font-bold text-gray-900">Royal Hotel</span>
+            <span className="text-2xl font-bold text-gray-900">Elite Stay Hotel</span>
           </Link>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Create Account</h1>
-          <p className="text-gray-600">Join the Royal Hotel family</p>
+          <p className="text-gray-600">Join the Elite Stay Hotel family</p>
         </div>
 
         {/* Form */}

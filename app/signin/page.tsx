@@ -22,7 +22,7 @@ export default function SignInPage() {
         <div className="text-center mb-8">
           <Link href="/" className="flex items-center justify-center space-x-2 mb-4">
             <Crown className="h-8 w-8 text-amber-500" />
-            <span className="text-2xl font-bold text-gray-900">Royal Hotel</span>
+            <span className="text-2xl font-bold text-gray-900">Elite Stay Hotel</span>
           </Link>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome Back</h1>
           <p className="text-gray-600">Sign in to your account</p>

@@ -21,7 +21,7 @@ const reviews = [
     location: "London, UK",
     rating: 5,
     comment:
-      "The attention to detail at Royal Hotel is remarkable. From the elegant decor to the world-class amenities, everything exceeded our expectations. Will definitely return!",
+      "The attention to detail at Elite Stay Hotel is remarkable. From the elegant decor to the world-class amenities, everything exceeded our expectations. Will definitely return!",
     avatar: "/placeholder.svg?height=60&width=60",
     date: "1 month ago",
   },
@@ -51,7 +51,7 @@ export default function Reviews() {
           <p className="text-yellow-500 font-semibold mb-2 tracking-wider uppercase">TESTIMONIALS</p>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 font-playfair">What Our Guests Say</h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Read authentic reviews from our valued guests who have experienced the luxury and comfort of Royal Hotel.
+            Read authentic reviews from our valued guests who have experienced the luxury and comfort of Elite Stay Hotel.
           </p>
         </motion.div>
 

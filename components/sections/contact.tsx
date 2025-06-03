@@ -70,9 +70,9 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
                   <p className="text-gray-600">
-                    info@royalhotel.com
+                    info@elitestay.com
                     <br />
-                    reservations@royalhotel.com
+                    reservations@elitestay.com
                   </p>
                 </div>
               </div>

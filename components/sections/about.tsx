@@ -51,7 +51,7 @@ export default function About() {
                 Luxury Redefined for the Modern Traveler
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
-                At Royal Hotel, we believe that luxury is not just about opulent surroundings, but about creating
+                At Elite Stay Hotel, we believe that luxury is not just about opulent surroundings, but about creating
                 unforgettable experiences that resonate with your soul. Our commitment to excellence has made us a
                 premier destination for discerning travelers worldwide.
               </p>

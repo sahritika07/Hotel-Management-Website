@@ -14,7 +14,7 @@ const employees = [
     social: {
       linkedin: "#",
       twitter: "#",
-      email: "james@royalhotel.com",
+      email: "james@elitestay.com",
     },
   },
   {
@@ -26,7 +26,7 @@ const employees = [
     social: {
       linkedin: "#",
       twitter: "#",
-      email: "sarah@royalhotel.com",
+      email: "sarah@elitestay.com",
     },
   },
   {
@@ -38,7 +38,7 @@ const employees = [
     social: {
       linkedin: "#",
       twitter: "#",
-      email: "michael@royalhotel.com",
+      email: "michael@elitestay.com",
     },
   },
 ]

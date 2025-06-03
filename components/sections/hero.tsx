@@ -60,13 +60,13 @@ export default function Hero() {
             </div>
 
             {/* Floating Labels */}
-            <div className="absolute -top-2 -left-6 sm:-top-4 sm:-left-8 bg-white/10 backdrop-blur-md rounded-full px-3 py-1 sm:px-4 sm:py-2">
+            <div className="absolute -top-2 -left-6 sm:-top-4 sm:-left-2 bg-white/10 backdrop-blur-md rounded-full px-3 py-1 sm:px-4 sm:py-2">
               <span className="text-white text-xs sm:text-sm">Enchanting</span>
             </div>
-            <div className="absolute top-1/2 -left-8 sm:-left-12 bg-white/10 backdrop-blur-md rounded-full px-3 py-1 sm:px-4 sm:py-2">
+            <div className="absolute top-1/2 -left-8 sm:-left-16 bg-white/10 backdrop-blur-md rounded-full px-3 py-1 sm:px-4 sm:py-2">
               <span className="text-white text-xs sm:text-sm">Unique</span>
             </div>
-            <div className="absolute -bottom-2 -left-6 sm:-bottom-4 sm:-left-8 bg-white/10 backdrop-blur-md rounded-full px-3 py-1 sm:px-4 sm:py-2">
+            <div className="absolute -bottom-2 -left-6 sm:-bottom-4 sm:-left-2 bg-white/10 backdrop-blur-md rounded-full px-3 py-1 sm:px-4 sm:py-2">
               <span className="text-white text-xs sm:text-sm">Rejuvenate</span>
             </div>
           </div>

@@ -15,12 +15,12 @@ export default function Footer() {
                 <span className="text-black font-bold text-xl">G</span>
               </div>
               <div>
-                <div className="font-bold text-xl">GLAMOUR</div>
+                <div className="font-bold text-xl">ELITE STAY</div>
                 <div className="text-xs text-gray-300">Hotel & Resort</div>
               </div>
             </Link>
             <p className="text-gray-400 leading-relaxed">
-              Experience luxury and elegance at Glamour Hotel & Resort. Where every stay is a memorable journey of
+              Experience luxury and elegance at Elite Stay Hotel & Resort. Where every stay is a memorable journey of
               comfort and sophistication.
             </p>
             <div className="flex space-x-4">
@@ -131,7 +131,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-yellow-500" />
-                <p className="text-gray-400">info@glamourhotel.com</p>
+                <p className="text-gray-400">info@elitestay.com</p>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© 2024 Glamour Hotel & Resort. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© 2024 Elite Stay Hotel & Resort. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="#" className="text-gray-400 hover:text-yellow-500 text-sm transition-colors">
               Privacy Policy
