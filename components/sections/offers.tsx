@@ -72,7 +72,7 @@ export default function Offers() {
               {/* Image */}
               <div className="relative  h-40 sm:h-48 lg:h-56 order-1 lg:order-2 m-10">
                 <Image src={offer.image || "/placeholder.svg"} alt={offer.title} fill className="object-cover mt-10 "   />
-                <div className="absolute top-4 left-4 bg-yellow-500 text-black px-3 py-1 rounded-full font-semibold text-sm">
+                <div className="absolute top-14 left-4 bg-yellow-500 text-black px-3 py-1 rounded-full font-semibold text-sm">
                   {offer.discount}
                 </div>
               </div>
