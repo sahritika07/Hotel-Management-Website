@@ -111,7 +111,7 @@ export default function WhyChooseUs() {
               >
                 <div className="flex items-center space-x-2 sm:space-x-3">
                   <Image
-                    src={review.avatar || "/placeholder.svg"}
+                   src="/images/human1.jpg" 
                     alt={review.name}
                     width={32}
                     height={32}

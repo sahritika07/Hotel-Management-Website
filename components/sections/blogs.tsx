@@ -19,7 +19,7 @@ const blogs = [
     id: 2,
     title: "A Guide to Choosing the Perfect Room Type for Your Stay",
     excerpt: "Learn how to select the ideal room that matches your needs, preferences, and budget.",
-    image: "/images/blog-2.jpg",
+    image: "/images/main4.jpg",
     date: "Jan 09, 2025",
     author: "Travel Advisor",
     category: "Luxury Room",

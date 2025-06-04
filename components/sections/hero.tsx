@@ -10,7 +10,7 @@ export default function Hero() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden bg-black">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <Image src="/images/hero-elite.jpg" alt="Elite Stay Hotel" fill className="object-cover opacity-90" priority />
+        <Image src="/images/main4.jpg" alt="Elite Stay Hotel" fill className="object-cover opacity-90" priority />
         <div className="absolute inset-0 bg-black/40" />
       </div>
 

@@ -83,10 +83,10 @@ export default function Rooms() {
             viewport={{ once: true }}
             className="md:col-span-1 lg:row-span-2 space-y-4"
           >
-            <div className="relative h-96 mt-10  lg:h-96 rounded-2xl overflow-hidden">
+            <div className="relative h-96 mt-10 lg:h-96 rounded-2xl overflow-hidden">
               <Image src={rooms[1].image || "/placeholder.svg"} alt={rooms[1].name} fill className="object-cover" />
             </div>
-            <div>
+            <div className="flex flex-col items-center">
               <p className="text-sm text-gray-500 mb-1">{rooms[1].guests}</p>
               <h3 className="text-xl font-bold text-gray-900">{rooms[1].name}</h3>
             </div>
@@ -103,9 +103,9 @@ export default function Rooms() {
             <div className="relative h-48 rounded-2xl overflow-hidden">
               <Image src={rooms[2].image || "/placeholder.svg"} alt={rooms[2].name} fill className="object-cover" />
             </div>
-            <div>
-              <p className="text-sm text-gray-500 mb-1">{rooms[2].guests}</p>
-              <h3 className="text-xl font-bold text-gray-900">{rooms[2].name}</h3>
+            <div className="flex flex-col items-end">
+            <p className="text-sm text-gray-500 mb-1">{rooms[2].guests}</p>
+            <h3 className="text-xl font-bold text-gray-900">{rooms[2].name}</h3>
             </div>
           </motion.div>
 
@@ -137,7 +137,7 @@ export default function Rooms() {
             <div className="relative h-48 rounded-2xl overflow-hidden">
               <Image src={rooms[4].image || "/placeholder.svg"} alt={rooms[4].name} fill className="object-cover" />
             </div>
-            <div>
+            <div className="flex flex-col items-end">
               <p className="text-sm text-gray-500 mb-1">{rooms[4].guests}</p>
               <h3 className="text-xl font-bold text-gray-900">{rooms[4].name}</h3>
             </div>
