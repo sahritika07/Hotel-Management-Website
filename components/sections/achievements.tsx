@@ -37,7 +37,8 @@ const awards = [
 export default function Achievements() {
   return (
     <section className="py-12 sm:py-16 lg:py-20 bg-white">
-      <div className="container mx-auto px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -52,12 +53,13 @@ export default function Achievements() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-playfair">
             Proudly Recognized for Excellence
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto text-base lg:text-lg px-4">
+          <p className="text-gray-600 max-w-2xl mx-auto text-base sm:text-lg px-2 sm:px-4">
             Our commitment to excellence has been recognized by prestigious hospitality organizations worldwide.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 m-14">
+        {/* Awards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {awards.map((award, index) => (
             <motion.div
               key={award.id}
@@ -65,32 +67,34 @@ export default function Achievements() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="flex items-start space-x-4 lg:space-x-6 p-4 lg:p-6 bg-gray-50 rounded-2xl hover:shadow-lg transition-shadow duration-300"
+              className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 lg:space-x-6 p-4 sm:p-5 lg:p-6 bg-gray-50 rounded-2xl hover:shadow-lg transition-shadow duration-300"
             >
-              {/* Award Badge */}
-              <div className="flex-shrink-0">
-                <div className="relative">
-                  <div className="w-16 h-16 lg:w-20 lg:h-20 bg-white rounded-full flex items-center justify-center shadow-lg border-4 border-yellow-200">
-                    <award.icon className="w-6 h-6 lg:w-8 lg:h-8 text-yellow-600" />
-                  </div>
-                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-yellow-600 text-white text-xs px-2 py-1 rounded-full font-semibold">
-                    {award.year}
-                  </div>
+              {/* Icon Badge */}
+              <div className="flex-shrink-0 relative">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-white rounded-full flex items-center justify-center shadow-lg border-4 border-yellow-200">
+                  <award.icon className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-yellow-600" />
+                </div>
+                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-yellow-600 text-white text-[10px] sm:text-xs px-2 py-0.5 rounded-full font-semibold">
+                  {award.year}
                 </div>
               </div>
 
-              {/* Award Content */}
+              {/* Award Info */}
               <div className="flex-1 min-w-0">
-                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-                  <h3 className="text-lg lg:text-xl font-bold text-gray-900 font-playfair">{award.title}</h3>
-                  <span className="text-xl lg:text-2xl font-bold text-gray-400 mt-1 sm:mt-0">{award.year}</span>
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1 sm:mb-2">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 font-playfair">{award.title}</h3>
+                  <span className="text-sm sm:text-base lg:text-lg font-bold text-gray-400 mt-1 sm:mt-0 block sm:hidden lg:block">
+                    {award.year}
+                  </span>
                 </div>
-                <p className="text-gray-600 leading-relaxed text-sm lg:text-base">{award.description}</p>
+                <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+                  {award.description}
+                </p>
 
                 {/* Stars */}
                 <div className="flex items-center mt-3">
                   {[...Array(3)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 lg:w-5 lg:h-5 fill-yellow-400 text-yellow-400 mr-1" />
+                    <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 fill-yellow-400 text-yellow-400 mr-1" />
                   ))}
                 </div>
               </div>

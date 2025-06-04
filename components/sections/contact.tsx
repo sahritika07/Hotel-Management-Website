@@ -32,7 +32,7 @@ export default function Contact() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <div className="space-y-6">
+            <div className="space-y-6 ml-16">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center">
                   <MapPin className="w-6 h-6 text-black" />

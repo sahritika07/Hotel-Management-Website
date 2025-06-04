@@ -7,17 +7,17 @@ const reasons = [
   {
     number: 1,
     title: "Provide the best choice of Room.",
-    description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.",
+    description: "Choose from a wide range of beautifully designed rooms tailored for comfort, luxury, and convenience to suit every guest's preference.",
   },
   {
     number: 2,
     title: "Low price with Best Quality",
-    description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.",
+    description: "Enjoy top-notch amenities and exceptional service without breaking the bank — premium hospitality at an unbeatable price.",
   },
   {
     number: 3,
     title: "Restaurant Service",
-    description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.",
+    description: "Delight in our on-site restaurant offering a variety of delicious cuisines, attentive service, and a cozy dining experience.",
   },
 ]
 
@@ -25,17 +25,17 @@ const reviews = [
   {
     name: "Cody Fisher",
     rating: 4.5,
-    avatar: "/placeholder.svg?height=40&width=40",
+    avatar: "/images/human1.jpg",
   },
   {
     name: "Albert Flores",
     rating: 4.2,
-    avatar: "/placeholder.svg?height=40&width=40",
+    avatar: "/images/human2.jpg",
   },
   {
     name: "Devon Lane",
     rating: 4.8,
-    avatar: "/placeholder.svg?height=40&width=40",
+    avatar: "/images/human3.jpg",
   },
 ]
 
@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
             Why You Should <span className="text-yellow-500">Stay Here</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto px-4">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.
+            Experience comfort, convenience, and care — all under one roof.
           </p>
         </motion.div>
 
@@ -111,7 +111,7 @@ export default function WhyChooseUs() {
               >
                 <div className="flex items-center space-x-2 sm:space-x-3">
                   <Image
-                   src="/images/human1.jpg" 
+                   src=  {review.avatar || "/placeholder.svg"}
                     alt={review.name}
                     width={32}
                     height={32}

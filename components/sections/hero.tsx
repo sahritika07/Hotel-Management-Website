@@ -21,7 +21,8 @@ export default function Hero() {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-white text-center lg:text-left ml-4 lg:ml-8"
+          // className="text-white text-center lg:text-left ml-4 lg:ml-8"
+          className="text-white text-center lg:text-left ml-4 lg:ml-8 mt-20 sm:mt-32"
         >
           <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold mb-6 leading-tight font-serif">
   More Than a Stay 
